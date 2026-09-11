@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'DM Sans', sans-serif; color: #25221e; background: #f7f5f0; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+.leaflet-container { z-index: 0; font-family: 'DM Sans', sans-serif; }
+.custom-marker { background: transparent; border: 0; }
+.marker-pin { width: 38px; height: 38px; display: grid; place-items: center; background: #3b2821; color: #f5d8a8; border: 3px solid #fff; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); box-shadow: 0 5px 12px rgba(59,40,33,.28); }
+.marker-pin span { transform: rotate(45deg); font-size: 17px; }
+.leaflet-popup-content-wrapper { border-radius: 14px; padding: 3px; }
+.leaflet-popup-content { margin: 11px 14px; font-size: 12px; line-height: 1.7; }
+.leaflet-popup-content strong { color: #3b2821; font-family: 'DM Serif Display', serif; font-size: 17px; }
+.leaflet-popup-content span { color: #c96743; font-weight: 700; }
